@@ -1,0 +1,225 @@
+*{
+    margin: 0 auto;
+    /* border: dotted red; */
+    
+}
+#wrapper{
+    background-size: 100%;
+    /* background-image: url(./python-BSD.png); */
+    background-repeat: no-repeat;
+    width: 970px;
+    height: 785px;
+    
+
+}
+#python{
+    width: 970px;
+    height: 480px;
+    background-color: rgb(20, 38, 202);
+    
+    
+}
+#python img, .line,.menu,.list1,.detail{
+    display: inline-block;
+    vertical-align: top;
+}
+.box2{
+    width: 970px;
+    height: 220px;
+    /* background-color: white; */
+}
+.box3{
+    width: 970px;
+    height: 85px;
+    background-color: blue;
+    text-align: center;
+}
+
+#python a1{
+    
+    font-size: 14px;
+    color: darkgoldenrod;
+    
+   
+}
+#python p1{
+    color: white;
+    font-size: 14px;
+    margin-left: 100px;
+}
+#python a2{
+    
+    font-size: 14px;
+    color: darkgoldenrod; 
+    
+}
+img{
+    margin: 15px 0 0 25px;
+}
+
+.search{
+    width: 280px;
+    height: 60px;
+    background-color: rgb(68, 68, 68);
+    
+    border-radius: 10px;
+   
+}
+input{
+    height: 30px;
+    width: 154px;
+    
+    margin: 10px 0px 10px 50px;
+}
+.button{
+    width: 40px;
+    height: 32px;
+    background-color: rgba(9, 63, 163, 0.986);
+    border-radius: 5px;
+    
+    color: white
+}  
+.line{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+.menu{
+    width: 820px;
+    height: 44px;
+    /* background-color: rgb(15, 141, 199); */
+    padding-left: 28px;
+    
+    margin: 13px 0 0 87px;
+    
+}  
+
+.menu li {
+    float: left;
+    list-style: none;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.line a2{
+    border-left:solid 1px black;
+    padding-left: 5px;
+}
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding-left: 21px;
+    padding-right: 20px;
+    text-decoration: none;
+    margin: 8px 0px 20px 0px;
+
+}
+
+.menu li a:hover {
+    background-color: black;
+}
+.list1,.detail{
+    display: inline-block;
+    vertical-align: top;
+}
+.list1 p2{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 9px;
+    display: block;
+}
+.list1{
+    width: 200px;
+    min-height: 200px;
+    text-align: center; 
+    margin: 22px 0 0 93px;
+} 
+    .list1 p2:before {
+        content: ' \00BB';
+        list-style: none;
+        color: goldenrod;
+        font-size: 15px;
+    }
+    .list1 p2,a{
+        
+        color: white;
+    }
+    .list1 a{
+        text-decoration: underline;
+        margin: 3px;
+    }
+.detail{
+    width: 572px;
+    height: 300px;
+    /* background-color: rgb(36, 36, 212); */
+    text-align: center;
+    color: white;
+    margin: 15px 0 0 20px;
+    font-family: sans-serif
+}
+.detail h1{
+    font-size: 18px;
+    color: rgb(250, 196, 59);
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: inherit;
+    display: block;
+    margin: 10px;
+}
+.detail p3{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.supbox2,.supbox21{
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    border-top: solid 5px rgb(1, 111, 255);
+    margin: 13px 0px 0 75px;
+    padding: 5px 140px 0px 35px;
+}
+.supbox2 h1,.supbox21 h1{
+    font-size: 15px;
+    padding-left: 30px;
+}
+.supbox2 p1,.supbox21 p1{
+    font-size: 13px;
+}
+.supbox2,.supbox21 ul{
+    padding-left: 35px;
+    width: 250px;
+    color: black;
+}
+.supbox2 li,.supbox21 li{
+    margin: 0 5px 5px 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    list-style: square;
+    
+}
+span{
+    color: rgb(0, 183, 255)
+}
+.supbox21{
+    margin-left: 20px;
+    width: 290px;
+    padding-right:75px; 
+}
+.box3 h1{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 40px 20px 10px 20px;
+}
+.box3 h2{
+    font-family: sans-serif;
+    font-size: 8px;
+    color: white;
+    font-weight: 100;
+
+}
